@@ -142,3 +142,8 @@ ansible-playbook main.yml -t filebeat
 ---
 
 ### Сеть
+
+![31](./other/screenshots/31.png)
+![32](./other/screenshots/32.png)
+![33](./other/screenshots/33.png)
+
