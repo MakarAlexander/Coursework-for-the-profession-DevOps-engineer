@@ -1,2 +1,4 @@
-# Coursework-for-the-profession-DevOps-engineer
+# Coursework-for-the-profession-DevOps-engineer "Макарцев Александр Владимирович"
 Курсовая работа на профессии "DevOps-инженер с нуля"
+
+Основная задача развернуть облачную инфраструктуру посредством Terraform и Ansible, в соответствии с [заданием](./Курсовой%20проект.md)
