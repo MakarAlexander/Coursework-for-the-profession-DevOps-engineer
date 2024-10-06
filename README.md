@@ -147,3 +147,9 @@ ansible-playbook main.yml -t filebeat
 ![32](./other/screenshots/32.png)
 ![33](./other/screenshots/33.png)
 
+---
+
+### Резервное копирование
+
+![34](./other/screenshots/34.png)
+
