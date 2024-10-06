@@ -1,0 +1,20 @@
+---
+
+- import_playbook: "playbooks/webservers-playbook.yml"
+  tags:
+    - webservers
+    - nginx
+
+- import_playbook: "playbooks/log-playbook.yml"
+  tags:
+    - elasticsearch
+    - kibana
+
+- import_playbook: "playbooks/log-filebeat-playbook.yml"
+  tags:
+    - filebeat
+
+- import_playbook: "playbooks/monitoring-playbook.yml"
+  tags:
+    - prometheus
+    - grafana
