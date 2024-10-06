@@ -112,3 +112,33 @@ ansible-playbook main.yml -t grafana
 ---
 
 ### Логи
+
+[Поднятие системы логирования](./ansible/playbooks/log-playbook.yml) (обязательно нужно проверить, что контейнеры поднялись. Возможна ошибка при установке пакетов для docker, прокатываем роль ещё раз)
+
+```sh
+ansible-playbook main.yml -t elasticsearch
+```
+
+![22](./other/screenshots/22.png)
+![23](./other/screenshots/23.png)
+![24](./other/screenshots/24.png)
+![25](./other/screenshots/25.png)
+![26](./other/screenshots/26.png)
+
+[Поднятие filebeat](./ansible/playbooks/log-filebeat-playbook.yml)
+
+```sh
+ansible-playbook main.yml -t filebeat
+```
+
+![27](./other/screenshots/27.png)
+![28](./other/screenshots/28.png)
+
+Проверяем Kibana на наличие логов из Nginx
+
+![29](./other/screenshots/29.png)
+![30](./other/screenshots/30.png)
+
+---
+
+### Сеть
