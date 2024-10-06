@@ -94,4 +94,21 @@ curl -v 84.201.181.146:80
 ansible-playbook main.yml -t grafana
 ```
 
+![16](./other/screenshots/16.png)
+![17](./other/screenshots/17.png)
+![18](./other/screenshots/18.png)
+
 Проверяем, что импортированные дашборды работают корректно
+
+>NGINX Servers Metrics:
+
+![19](./other/screenshots/19.png)
+![20](./other/screenshots/20.png)
+
+>Node Exporter Full:
+
+![21](./other/screenshots/21.png)
+
+---
+
+### Логи
