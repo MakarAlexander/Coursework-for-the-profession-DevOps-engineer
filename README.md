@@ -122,6 +122,13 @@ ansible-playbook main.yml -t elasticsearch
 ![22](./other/screenshots/22.png)
 ![23](./other/screenshots/23.png)
 ![24](./other/screenshots/24.png)
+
+Если возникла ошибка при установке зависимостей для docker, то:
+
+```sh
+ansible-playbook main.yml -t kibana -l kibana
+```
+
 ![25](./other/screenshots/25.png)
 ![26](./other/screenshots/26.png)
 
